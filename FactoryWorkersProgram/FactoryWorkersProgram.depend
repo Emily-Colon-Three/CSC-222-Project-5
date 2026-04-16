@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1776300108 source:/home/paulmichaelolsen/VPCC Assignnments/CSC 222/M5 Programming Project/FactoryWorkersProgram/main.cpp
+	<iostream>
+	"Employee.h"
+	"ProductionWorker.h"
+	"ShiftSupervisor.h"
+	"TeamLeader.h"
+
+1776311324 /home/paulmichaelolsen/VPCC Assignnments/CSC 222/M5 Programming Project/FactoryWorkersProgram/Employee.h
+	<string>
+
+1776298392 /home/paulmichaelolsen/VPCC Assignnments/CSC 222/M5 Programming Project/FactoryWorkersProgram/ProductionWorker.h
+
+1776298430 /home/paulmichaelolsen/VPCC Assignnments/CSC 222/M5 Programming Project/FactoryWorkersProgram/ShiftSupervisor.h
+
+1776298512 /home/paulmichaelolsen/VPCC Assignnments/CSC 222/M5 Programming Project/FactoryWorkersProgram/TeamLeader.h
+
