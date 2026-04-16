@@ -34,7 +34,7 @@ public:
         return date;
     }
 
-    void printEmployee();
+    void printEmployee() const;
 
 };
 #endif // EMPLOYEE_H
