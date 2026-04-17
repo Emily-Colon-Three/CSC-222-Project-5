@@ -13,19 +13,16 @@ private:
     float payPerHour;
 
 public:
-    ProductionWorker();
+    ProductionWorker(std::string name, int num, int m, int d, int y, int shift, float wage) : Employee(name, num, m, d, y) {};
 
-    inline int getShift()
-    {
-        return this->timeOfShift;
-    }
-    inline float getWage()
+    std::string getShift() const;
+    inline float getWage() const
     {
         return this->payPerHour;
     }
 
-    void setShift();
-    void setWage();
+    void setShift(int newShift);
+    void setWage(float newWage);
 
     void printProductionWorker() const;
 };
