@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1776300108 source:/home/paulmichaelolsen/VPCC Assignnments/CSC 222/M5 Programming Project/FactoryWorkersProgram/main.cpp
+1776400060 source:/home/paulmichaelolsen/VPCC Assignnments/CSC 222/M5 Programming Project/FactoryWorkersProgram/main.cpp
 	<iostream>
 	"Employee.h"
 	"ProductionWorker.h"
@@ -27,7 +27,12 @@
 	<iostream>
 	<iomanip>
 
-1776298009 source:/home/paulmichaelolsen/VPCC Assignnments/CSC 222/M5 Programming Project/FactoryWorkersProgram/TeamLeader.cpp
+1776399013 source:/home/paulmichaelolsen/VPCC Assignnments/CSC 222/M5 Programming Project/FactoryWorkersProgram/TeamLeader.cpp
+	"TeamLeader.h"
+	"ProductionWorker.h"
+	<string>
+	<iostream>
+	<iomanip>
 
 1776391109 source:/home/paulmichaelolsen/VPCC Assignnments/CSC 222/M5 Programming Project/FactoryWorkersProgram/Employee.cpp
 	"Employee.h"
