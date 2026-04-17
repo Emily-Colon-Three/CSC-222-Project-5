@@ -25,5 +25,17 @@ int main()
 
     sara.printProductionWorker();
     james.printProductionWorker();
+
+    cout << "Testing ShiftSupervisor Class:\n";
+
+    ShiftSupervisor paul("Paul", 15, 3, 19, 2024, 50000.00, 5000.00);
+
+    paul.printShiftSupervisor();
+
+    cout << "Testing TeamLeader Class:\n";
+
+    TeamLeader napoleon("Napoleon", 18, 5, 5, 2020, NIGHTSHIFT, 25.00, 100.00, 30, 35);
+
+    napoleon.printTeamLeader();
     return 0;
 }
