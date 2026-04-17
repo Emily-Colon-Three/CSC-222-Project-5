@@ -1,6 +1,7 @@
 #include "ShiftSupervisor.h"
 #include <string>
 #include <iostream>
+#include <iomanip>
 
 /*
     Summary: Creates a ShiftSupervisor object using data from the parameters, passing in some and utilizing an initializer list for the base (Employee) class.
@@ -11,8 +12,8 @@
 */
 ShiftSupervisor::ShiftSupervisor(std::string name, int num, int m, int d, int y, float salary, float bonus) : Employee(name, num, m, d, y)
 {
-    this->getSalary(salary);
-    this->getBonus(bonus);
+    this->setSalary(salary);
+    this->setBonus(bonus);
 }
 
 // No return, takes in float of a new annual salary to set for the ShiftSupervisor object. It will reject and print an error for negative salaries.
