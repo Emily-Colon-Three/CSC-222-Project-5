@@ -13,7 +13,8 @@
 	"Employee.h"
 	<string>
 
-1776390023 /home/paulmichaelolsen/VPCC Assignnments/CSC 222/M5 Programming Project/FactoryWorkersProgram/ShiftSupervisor.h
+1776391608 /home/paulmichaelolsen/VPCC Assignnments/CSC 222/M5 Programming Project/FactoryWorkersProgram/ShiftSupervisor.h
+	"Employee.h"
 	<string>
 
 1776298512 /home/paulmichaelolsen/VPCC Assignnments/CSC 222/M5 Programming Project/FactoryWorkersProgram/TeamLeader.h
@@ -26,4 +27,10 @@
 	"Employee.h"
 	<string>
 	<iostream>
+
+1776391318 source:/home/paulmichaelolsen/VPCC Assignnments/CSC 222/M5 Programming Project/FactoryWorkersProgram/ProductionWorker.cpp
+	"ProductionWorker.h"
+	<iostream>
+	<string>
+	<iomanip>
 

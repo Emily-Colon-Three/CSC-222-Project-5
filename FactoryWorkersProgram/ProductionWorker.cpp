@@ -55,7 +55,7 @@ void ProductionWorker::setWage(float newWage)
     }
     else
     {
-        std::cout << "Wage Input Cannot be Negative." << std::endl;
+        std::cout << "Wage Input Cannot be Negative.\n";
     }
 }
 

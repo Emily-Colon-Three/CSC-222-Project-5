@@ -1,5 +1,6 @@
 #ifndef SHIFTSUPERVISOR_H
 #define SHIFTSUPERVISOR_H
+#include "Employee.h"
 #include <string>
 
 class ShiftSupervisor : public Employee
@@ -9,7 +10,7 @@ private:
     float annualProductionBonus;
 
 public:
-    ShiftSupervisor(std::string name, int num, int m, int d, int y, float salary, float bonus) : Employee(name, num, m, d, y) {};
+    ShiftSupervisor(std::string name, int num, int m, int d, int y, float salary, float bonus);
 
     inline float getSalary() const
     {
