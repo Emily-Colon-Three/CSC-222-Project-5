@@ -45,7 +45,7 @@ void Employee::setDateHired(int m, int d, int y)
 */
 void Employee::printEmployee() const
 {
-    cout << "Employee Name: " << this->name << endl;
-    cout << "Employee Number: " << this->number << endl;
-    cout << "Date Hired: " << this->getDateHired() << endl;
+    std::cout << "Employee Name: " << this->name << std::endl;
+    std::cout << "Employee Number: " << this->number << std::endl;
+    std::cout << "Date Hired: " << this->getDateHired() << std::endl;
 }

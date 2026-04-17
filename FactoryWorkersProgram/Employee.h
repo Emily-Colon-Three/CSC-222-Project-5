@@ -20,15 +20,15 @@ public:
     void setDateHired(int m, int d, int y);
 
     // Accessor functions
-    inline std::string getName()
+    inline std::string getName() const
     {
         return name;
     }
-    inline int getNumber()
+    inline int getNumber() const
     {
         return number;
     }
-    inline std::string getDateHired()
+    inline std::string getDateHired() const
     {
         std::string date = std::to_string(monthHired) + '/' + std::to_string(dayHired) + '/' + std::to_string(yearHired); // Formats date in mm/dd/yyyy
         return date;

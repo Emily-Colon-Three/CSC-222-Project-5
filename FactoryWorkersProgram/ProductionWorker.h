@@ -13,7 +13,7 @@ private:
     float payPerHour;
 
 public:
-    ProductionWorker(std::string name, int num, int m, int d, int y, int shift, float wage) : Employee(name, num, m, d, y) {};
+    ProductionWorker(std::string name, int num, int m, int d, int y, int shift, float wage);
 
     std::string getShift() const;
     inline float getWage() const

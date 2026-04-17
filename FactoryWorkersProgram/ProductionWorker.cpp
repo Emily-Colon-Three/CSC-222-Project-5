@@ -1,6 +1,7 @@
 #include "ProductionWorker.h"
 #include <iostream>
 #include <string>
+#include <iomanip>
 
 /*
     Summary: Constructs a new ProductionWorker object, laying on top of the usual Employee base class constructor with the addition of a shift and hourly wage.
@@ -9,12 +10,13 @@
     Preconditions: Needs input for all parameters, no default is provided.
     Postconditions: A new ProductionWorker object is created with the given data, using some memory.
 */
-ProductionWorker::ProductionWorker(std::string name, int num, int m, int d, int y, int shift, float wage)
+ProductionWorker::ProductionWorker(std::string name, int num, int m, int d, int y, int shift, float wage) : Employee(name, num, m, d, y)
 {
-    this->timeOfShift = shift;
-    this->payPerHour = wage;
+    this->setShift(shift);
+    this->setWage(wage);
 }
 
+// Gets the shift of the worker and returns it in string form, optimal for printing.
 std::string ProductionWorker::getShift() const
 {
     if (this->timeOfShift == DAYSHIFT)
@@ -32,7 +34,7 @@ std::string ProductionWorker::getShift() const
 }
 
 // Sets the shift of the ProductionWorker object to either 1 or 2, day or night. If the input is not either, an error is printed and no change is made, validating input. Returns nothing.
-void ProductionWorker::setShift(int newShift);
+void ProductionWorker::setShift(int newShift)
 {
     if (newShift >= DAYSHIFT && newShift <= NIGHTSHIFT) // Only works with actual shift values
     {
@@ -40,12 +42,12 @@ void ProductionWorker::setShift(int newShift);
     }
     else
     {
-        cout << "Shift Input Invalid." << endl; // Rejects invalid input with error message
+        std::cout << "Shift Input Invalid." << std::endl; // Rejects invalid input with error message
     }
 }
 
 // Changes the pay per hour of a ProductionWorker object to the input, returning nothing. Does not change if input is invalid, i.e. negative and less than 0.
-void ProductionWorker::setWage(float newWage);
+void ProductionWorker::setWage(float newWage)
 {
     if (newWage >= 0)
     {
@@ -53,7 +55,7 @@ void ProductionWorker::setWage(float newWage);
     }
     else
     {
-        cout << "Wage Input Cannot be Negative." << endl;
+        std::cout << "Wage Input Cannot be Negative." << std::endl;
     }
 }
 
@@ -68,7 +70,7 @@ void ProductionWorker::printProductionWorker() const
 {
     this->printEmployee(); // Prints base employee information
 
-    cout << "This employee is a Production Worker." << endl;
-    cout << "Time of Work: " << this->getShift() << endl;
-    cout << "Wage Earned per Hour: $" << this->getWage() << endl;
+    std::cout << "This employee is a Production Worker." << std::endl;
+    std::cout << "Time of Work: " << this->getShift() << std::endl;
+    std::cout << std::fixed << std::setprecision(2) << "Wage Earned per Hour: $" << this->getWage() << std::endl;
 }
