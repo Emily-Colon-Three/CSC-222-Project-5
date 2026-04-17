@@ -6,7 +6,7 @@
 	"ShiftSupervisor.h"
 	"TeamLeader.h"
 
-1776391152 /home/paulmichaelolsen/VPCC Assignnments/CSC 222/M5 Programming Project/FactoryWorkersProgram/Employee.h
+1776397466 /home/paulmichaelolsen/VPCC Assignnments/CSC 222/M5 Programming Project/FactoryWorkersProgram/Employee.h
 	<string>
 
 1776391213 /home/paulmichaelolsen/VPCC Assignnments/CSC 222/M5 Programming Project/FactoryWorkersProgram/ProductionWorker.h
@@ -17,8 +17,9 @@
 	"Employee.h"
 	<string>
 
-1776397131 /home/paulmichaelolsen/VPCC Assignnments/CSC 222/M5 Programming Project/FactoryWorkersProgram/TeamLeader.h
+1776398219 /home/paulmichaelolsen/VPCC Assignnments/CSC 222/M5 Programming Project/FactoryWorkersProgram/TeamLeader.h
 	<string>
+	"ProductionWorker.h"
 
 1776393473 source:/home/paulmichaelolsen/VPCC Assignnments/CSC 222/M5 Programming Project/FactoryWorkersProgram/ShiftSupervisor.cpp
 	"ShiftSupervisor.h"

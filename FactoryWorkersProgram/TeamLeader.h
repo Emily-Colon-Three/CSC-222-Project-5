@@ -1,6 +1,7 @@
 #ifndef TEAMLEADER_H
 #define TEAMLEADER_H
 #include <string>
+#include "ProductionWorker.h"
 
 class TeamLeader : public ProductionWorker
 {
@@ -11,7 +12,7 @@ private:
     int attendedHours;
 
 public:
-    TeamLeader(std::string name, int num, int m, int d, int y, float bonus, int reqHrs, int attHrs);
+    TeamLeader(std::string name, int num, int m, int d, int y, int shift, float wage, float bonus, int reqHrs, int attHrs);
 
     inline float getBonus() const
     {

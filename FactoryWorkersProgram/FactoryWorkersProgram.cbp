@@ -32,6 +32,14 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Employee.cpp" />
+		<Unit filename="Employee.h" />
+		<Unit filename="ProductionWorker.cpp" />
+		<Unit filename="ProductionWorker.h" />
+		<Unit filename="ShiftSupervisor.cpp" />
+		<Unit filename="ShiftSupervisor.h" />
+		<Unit filename="TeamLeader.cpp" />
+		<Unit filename="TeamLeader.h" />
 		<Unit filename="main.cpp" />
 		<Extensions />
 	</Project>

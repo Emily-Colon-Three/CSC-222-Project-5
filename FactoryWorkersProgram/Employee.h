@@ -35,6 +35,5 @@ public:
     }
 
     void printEmployee() const;
-
 };
 #endif // EMPLOYEE_H
