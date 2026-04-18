@@ -32,6 +32,14 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="BasicShape.cpp" />
+		<Unit filename="BasicShape.h" />
+		<Unit filename="Circle.cpp" />
+		<Unit filename="Circle.h" />
+		<Unit filename="Rectangle.cpp" />
+		<Unit filename="Rectangle.h" />
+		<Unit filename="Square.cpp" />
+		<Unit filename="Square.h" />
 		<Unit filename="main.cpp" />
 		<Extensions />
 	</Project>
