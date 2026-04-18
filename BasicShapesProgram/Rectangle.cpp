@@ -10,8 +10,8 @@
 */
 Rectangle::Rectangle(double l, double w, std::string n)
 {
-    this->length = l;
-    this->width = w;
+    this->setLength(l);
+    this->setWidth(w);
 
     this->setName(n);
     this->calcArea(); // Gets and sets the area of new object
