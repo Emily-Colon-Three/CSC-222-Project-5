@@ -21,13 +21,13 @@ public:
     }
     inline double getWidth()
     {
-        returnb this->width;
+        return this->width;
     }
 
     // Setter functions
     void setLength(double newLength);
     void setWidth(double newWidth);
 
-    double calcArea();
+    void calcArea();
 };
 #endif // RECTANGLE_H
