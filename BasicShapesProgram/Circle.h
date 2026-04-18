@@ -33,5 +33,7 @@ public:
     void setX(double x);
     void setY(double y);
     void setR(double r);
+
+    void calcArea();
 };
 #endif // CIRCLE_H
