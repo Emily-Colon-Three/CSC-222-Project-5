@@ -1,3 +1,5 @@
+/* The Square class represents a square, a type of rectangle. Thus, it is derived from the Rectangle class, adding a "side" variable which acts as both its length and
+width. Upon the side being initialized or set, both length and width will match it, in addition to a new area being calculated. */
 #ifndef SQUARE_H
 #define SQUARE_H
 #include "Rectangle.h"
