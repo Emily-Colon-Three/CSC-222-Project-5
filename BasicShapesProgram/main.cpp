@@ -26,5 +26,21 @@ int main()
         cout << "Area: " << collection[i]->getArea() << endl;
     }
 
+    cout << "Setter Testing:" << endl;
+
+    cA.setR(5);
+    cout << "Updated Circle Area: " << cA.getArea() << endl;
+
+    cA.setX(100.2);
+    cA.setY(57.36);
+    cout << "Updated Circle Area (after center coordinate change): " << cA.getArea() << endl; // Area should be the same as before.
+
+    rA.setLength(30);
+    rA.setWidth(20);
+    cout << "Updated Rectangle Area: " << rA.getArea() << endl; // Should output 600
+
+    sq.setSide(100);
+    cout << "Updated Square Area: " << sq.getArea() << endl; // Should output 10000
+
     return 0;
 }

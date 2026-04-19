@@ -35,8 +35,13 @@
 	"BasicShape.h"
 	<string>
 
-1776480891 source:/home/paulmichaelolsen/VPCC Assignnments/CSC 222/M5 Programming Project/BasicShapesProgram/main.cpp
+1776560808 source:/home/paulmichaelolsen/VPCC Assignnments/CSC 222/M5 Programming Project/BasicShapesProgram/main.cpp
 	<iostream>
+	<string>
+	"BasicShape.h"
+	"Circle.h"
+	"Rectangle.h"
+	"Square.h"
 
 1776550018 source:/home/paulmichaelolsen/VPCC Assignnments/CSC 222/M5 Programming Project/BasicShapesProgram/Rectangle.cpp
 	"Rectangle.h"
